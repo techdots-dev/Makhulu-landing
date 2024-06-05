@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { Header } from './components';
 
 const StyledPageContainer = styled.div`
-  background: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+  /* background: linear-gradient(to bottom, #f0f4f8, #d9e2ec); */
   display: flex;
   flex-direction: column;
   font-family: 'Arial, sans-serif';
@@ -17,14 +17,10 @@ const StyledLandingContainer = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 60px 20px;
   text-align: center;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: #ffffff;
-  margin: 40px auto;
-  max-width: 1300px;
   flex: 1;
+  width: 100%;
 `;
 
 const StyledWelcomeTitle = styled.h1`
@@ -44,7 +40,7 @@ const StyledDescription = styled.p`
   color: #666666;
   font-size: 1.2rem;
   max-width: 600px;
-  line-height: 1.6;
+  line-height: 1.2;
   margin-bottom: 24px;
 `;
 

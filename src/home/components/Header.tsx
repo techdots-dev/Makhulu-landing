@@ -7,10 +7,10 @@ const StyledHeaderContainer = styled.div`
   background-color: #ffff;
   display: flex;
   justify-content: space-between;
-  padding: 12px;
   width: 100%;
-  position: relative;
-  z-index: 1;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
 `;
 
 const StyledNav = styled.nav`
